@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+<button id="but"> 
+    click me
+</button>
+
+</br>
+</br>
+
+<button id="butphonepe"> 
+    phonepay click me
+</button>
+
+</br>
+</br>
+<button id="butanother"> 
+    another click me
+</button>
+
+</br>
+</br>
+
+
+
+
+</body>
+<script>
+    document.getElementById("but").addEventListener("click", function () {
+        window.open("upi://pay?pa=upstoxrpd@kaypay&pn=RKSV%20SECURTITIES%20INDIA%20PVT%20LTD%20&am=1.00&tr=1096030577527621092&tn=Account%20Verification&cu=INR&mc=6211&mode=04")
+    })
+
+    document.getElementById("butphonepe").addEventListener("click", function () {
+        window.open("phonepe://upi/pay?pa=testuat@icici&pn=test&tr=EZV2021111610485300031599&am=1.00&cu=INR&mc=5411")
+    })
+
+    document.getElementById("butanother").addEventListener("click", function () {
+        window.open("upi://pay?pa=upstoxrpd@kaypay&pn=test&am=1.00&tr=1096030577527621092&tn=ttt&cu=INR&mc=6211&mode=04")
+    })
+
+    document.getElementById("butwithshort").addEventListener("click", function () {
+        window.open("https://bills.pe/7i4dklfue3yi")
+    })
+</script>
+</html>
+
